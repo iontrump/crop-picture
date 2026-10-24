@@ -1,0 +1,27 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# Python / Virtual Environment
+.venv/
+venv/
+__pycache__/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific exclusions
+/SPECIFICATION.md
+/sample/sample_pic.JPG
+
+
+

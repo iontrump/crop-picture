@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.example.CropPicture</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Crop Picture</name>
+  <summary>Crop custom-size images for web assets</summary>
+  <description>
+    <p>
+      Crop Picture is a native GNOME desktop utility designed to crop custom-size rectangular and square images from common web formats including JPEG, PNG, WebP, GIF, BMP, and TIFF.
+    </p>
+  </description>
+  <releases>
+    <release version="1.0.0" date="2026-10-24">
+      <description>
+        <p>First official release supporting customizable rectangular/square crop sizes, zoom framing adjustments, and multi-architecture Debian packages.</p>
+      </description>
+    </release>
+  </releases>
+  <launchable type="desktop-id">org.example.CropPicture.desktop</launchable>
+  <url type="homepage">https://github.com/iontrump/crop-picture</url>
+  <url type="bugtracker">https://github.com/iontrump/crop-picture/issues</url>
+  <developer_name>iontrump</developer_name>
+</component>
+

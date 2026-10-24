@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="crop-picture">
+  <schema id="org.example.CropPicture" path="/org/example/CropPicture/">
+    <key name="window-width" type="i">
+      <default>960</default>
+      <summary>Default window width</summary>
+    </key>
+    <key name="window-height" type="i">
+      <default>720</default>
+      <summary>Default window height</summary>
+    </key>
+    <key name="is-maximized" type="b">
+      <default>false</default>
+      <summary>Window maximized state</summary>
+    </key>
+    <key name="last-open-folder" type="s">
+      <default>""</default>
+      <summary>Last opened directory path</summary>
+    </key>
+    <key name="last-save-folder" type="s">
+      <default>""</default>
+      <summary>Last saved directory path</summary>
+    </key>
+    <key name="crop-width" type="i">
+      <default>1000</default>
+      <summary>Crop area width in pixels</summary>
+    </key>
+    <key name="crop-height" type="i">
+      <default>1000</default>
+      <summary>Crop area height in pixels</summary>
+    </key>
+    <key name="lock-aspect-ratio" type="b">
+      <default>true</default>
+      <summary>Whether to lock aspect ratio when resizing crop area</summary>
+    </key>
+  </schema>
+</schemalist>
